@@ -7,6 +7,7 @@
 // @match        https*://www.turkanime.net/*
 // @grant        none
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
+// @license     MIT
 // @require     https://gist.github.com/raw/2625891/waitForKeyElements.js
 // @grant       GM_addStyle
 // ==/UserScript==
