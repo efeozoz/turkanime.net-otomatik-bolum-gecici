@@ -2,7 +2,7 @@
 // @name         turkanime.net otomatik bölüm geçici
 // @namespace    http://tampermonkey.net/
 // @version      1.1
-// @description  türkanime.net'de z ye tıklarsanız bölümü izlenilenlere ekleyip sıradaki bölüme geçer.(Sıradaki bölüme geçmesi 10 saniye sürer izlenildilere eklemesi 10 saniyeye yakın olduğundan)
+// @description  turkanime.net'de z ye tıklarsanız bölümü izlenilenlere ekleyip sıradaki bölüme geçer.(Sıradaki bölüme geçmesi 10 saniye sürer izlenildilere eklemesi 10 saniyeye yakın olduğundan)
 // @author       efeozoz
 // @match        https*://www.turkanime.net/*
 // @grant        none
