@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         turkanime.net otomatik bölüm geçici
 // @namespace    http://tampermonkey.net/
-// @version      1.1
-// @description  turkanime.net'de z ye tıklarsanız bölümü izlenilenlere ekleyip sıradaki bölüme geçer.(Sıradaki bölüme geçmesi 10 saniye sürer izlenildilere eklemesi 10 saniyeye yakın olduğundan)
+// @version      3.1
+// @description  turkanime.net'de z ye tıklarsanız bölümü izlenilenlere ekleyip sıradaki bölüme geçer.(Sıradaki bölüme geçmesi 4 saniye sürer izlenildilere eklemesi 4 saniyeye yakın olduğundan)
 // @author       efeozoz
 // @match        https*://www.turkanime.net/*
 // @grant        none
@@ -35,7 +35,7 @@ for (var i = 0; i < labels.length; ++i) {
         labels[i].click();
     }
 }
-    }, 10031); //Sonraki bölüme geçme süresi (10000=10 saniye) 10 saniye sonra geçiyor çünkü izlenildilere eklemesi 10 saniyeye yakın sürüyor eğer izlenildiği iptal ettiyseniz bu süreyi azaltabilirsiniz
+    }, 4000); //Sonraki bölüme geçme süresi (4000=4 saniye) 4 saniye sonra geçiyor çünkü izlenildilere eklemesi 4 saniyeye yakın sürüyor eğer izlenildiği iptal ettiyseniz bu süreyi azaltabilirsiniz
 //                                            (1000=1 saniye)
 })();
 
