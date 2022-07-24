@@ -3,7 +3,7 @@
 // @namespace    http://tampermonkey.net/
 // @version      3.1
 // @description  turkanime.net'de z ye tıklarsanız bölümü izlenilenlere ekleyip sıradaki bölüme geçer.(Sıradaki bölüme geçmesi 4 saniye sürer izlenildilere eklemesi 4 saniyeye yakın olduğundan)
-// @author       efeozoz
+// @author       thozoz
 // @match        https*://www.turkanime.net/*
 // @grant        none
 // @require     http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js
