@@ -35,7 +35,7 @@ for (var i = 0; i < labels.length; ++i) {
         labels[i].click();
     }
 }
-    }, 2000); //Sonraki bölüme geçme süresi (4000=4 saniye) 4 saniye sonra geçiyor çünkü izlenildilere eklemesi 4 saniyeye yakın sürüyor eğer izlenildiği iptal ettiyseniz bu süreyi azaltabilirsiniz
+    }, 1031); //Sonraki bölüme geçme süresi (4000=4 saniye) 4 saniye sonra geçiyor çünkü izlenildilere eklemesi 4 saniyeye yakın sürüyor eğer izlenildiği iptal ettiyseniz bu süreyi azaltabilirsiniz
 //                                            (1000=1 saniye)
 })();
 
